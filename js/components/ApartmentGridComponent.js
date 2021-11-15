@@ -54,11 +54,11 @@ class ApartmentGridComponent {
   render = () => {
     const { loading, apartments } = this.state;
     if (loading) {
-      this.htmlElement.innerHTML = `<div class="text-center"><img src="assets/loading.gif"/></div>`;
+      this.htmlElement.innerHTML = `<h2 class="text-center">Siunčiama</h2><div class="text-center"><img src="assets/loading.gif"/></div>`;
     } else if (apartments.length > 0) {
       this.htmlElement.innerHTML = '';
       const apartmentElements = apartments
-      //      destruring + rest params
+      
         .map(({ id, ...props }) => new ApartmentCardComponent({
           ...props,
           onDelete: () => this.deleteApartment(id)
@@ -67,7 +67,7 @@ class ApartmentGridComponent {
         .map(this.wrapInColumn);
       this.htmlElement.append(...apartmentElements)
     } else {
-      this.htmlElement.innerHTML = `<h2>Šiuo metu mašinų nėra</h2>`;
+      this.htmlElement.innerHTML = `<h2>Šiuo metu būstų nėra.</h2>`;
     }
   }
 }
