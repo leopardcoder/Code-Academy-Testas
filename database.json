@@ -1,0 +1,114 @@
+{
+  "apartments": [
+    {
+      "id": "1",
+      "type": "house",
+      "owner": {
+        "fullname": "Vardaitis Pavardaitis",
+        "email": "v.pavardaitis@name.lt",
+        "phone": "+370454353434"
+      },
+      "roomCount": 12,
+      "squares": 100,
+      "address": {
+        "city": "Kaunas",
+        "country": "Lithuania",
+        "street": "Laisvės al.",
+        "number": 25
+      },
+      "price": {
+        "amount": 160000,
+        "currency": "€"
+      },
+      "imgSrc": "https://aruodas-img.dgn.lt/object_63_100474695/nuotrauka.jpg"
+    },
+    {
+      "id": "2",
+      "type": "cottage",
+      "owner": {
+        "fullname": "Vardaitė Pavardaitė",
+        "email": "v.pavardaitė@originalu.lt",
+        "phone": "+37045444444"
+      },
+      "roomCount": 3,
+      "squares": 60,
+      "address": {
+        "city": "Vilnius",
+        "country": "Lithuania",
+        "street": "Gedimino pr.",
+        "number": 11
+      },
+      "price": {
+        "amount": 250000,
+        "currency": "$"
+      },
+      "imgSrc": "https://aruodas-img.dgn.lt/object_63_100718189/nuotrauka.jpg"
+    },
+    {
+      "id": "3",
+      "type": "flat",
+      "owner": {
+        "fullname": "Neimaitis Surneimaitis",
+        "email": "osama@binladen.com",
+        "phone": "+3703123434"
+      },
+      "roomCount": 3,
+      "squares": 60,
+      "address": {
+        "city": "Klaipėda",
+        "country": "Lithuania",
+        "street": "Basanavičiaus g.",
+        "number": 1
+      },
+      "price": {
+        "amount": 120000,
+        "currency": "$"
+      },
+      "imgSrc": "https://aruodas-img.dgn.lt/object_63_89471275/nuotrauka.jpg"
+    },
+    {
+      "id": "4",
+      "type": "flat",
+      "owner": {
+        "fullname": "VIktoras Uspaskich",
+        "email": "agurkai@kedainiai.com",
+        "phone": "+3703123434"
+      },
+      "roomCount": 5,
+      "squares": 160,
+      "address": {
+        "city": "Kedainiai",
+        "country": "Lithuania",
+        "street": "V. Uspaskich g.",
+        "number": 12
+      },
+      "price": {
+        "amount": 43000,
+        "currency": "€"
+      },
+      "imgSrc": "https://aruodas-img.dgn.lt/object_63_100470777/nuotrauka.jpg"
+    },
+    {
+      "id": "5",
+      "type": "cottage",
+      "owner": {
+        "fullname": "Valdas Adamkus",
+        "email": "Valdas@usa.com",
+        "phone": "+37064534234"
+      },
+      "roomCount": 6,
+      "squares": 220,
+      "address": {
+        "city": "Vilnius",
+        "country": "Lithuania",
+        "street": "Asanaviciutes g.",
+        "number": 25
+      },
+      "price": {
+        "amount": 260000,
+        "currency": "€"
+      },
+      "imgSrc": "https://aruodas-img.dgn.lt/object_63_100467199/nuotrauka.jpg"
+    }
+  ]
+}
