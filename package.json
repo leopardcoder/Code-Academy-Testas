@@ -1,0 +1,23 @@
+{
+  "name": "Linas-Mockus-dom-exam",
+  "version": "1.0.0",
+  "description": "CA DOM Exam",
+  "main": "index.js",
+  "scripts": {
+    "start-unix": "node_modules/.bin/json-server --watch database.json",
+    "start-win": "node_modules\\.bin\\json-server --watch database.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leopardcoder/CodeAcademyExam.git"
+  },
+  "author": "Linas Mockus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leopardcoder/CodeAcademyExam/issues"
+  },
+  "homepage": "https://github.com/leopardcoder/CodeAcademyExam.git",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}
